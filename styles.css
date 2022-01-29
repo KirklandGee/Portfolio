@@ -1,0 +1,108 @@
+html {
+    background-color: #181818;
+    color: #FFF;
+    font-family: 'Trispace';
+}
+
+h1 {
+    font-size: 5rem;
+    padding: -50px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2rem;
+    padding-top: -25%;
+    margin: auto;
+}
+
+H3 {
+    font-size: 1.5rem;
+    margin: auto;
+}
+H4 {
+    font-size: 1.25rem;
+    margin: auto;
+}
+
+a {
+    color: lightblue;
+}
+
+.siteLogo {
+    display: inline-flex;
+    width: auto;
+    height: 50px;
+}
+
+body {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navlink a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.navlink {
+    display: inline;
+    padding: 0px 40px 0px 40px;
+    position: relative;
+}
+
+.resumebutton {
+    display: inline-flex;
+    position: relative;
+}
+
+.resumebutton a {
+    display: flex;
+    background-color: #181818;
+    color: #FFF;
+    padding: 10px;
+    font-size: 16px;
+    border: 0.5px solid #FFF; 
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.heroDescription {
+    width: 45%;
+}
+
+.experienceSection {
+    margin: 20px;
+}
+.experienceContainer {
+    padding: 2rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.experienceContainer h4 {
+    margin-left: 15px;
+}
